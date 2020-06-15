@@ -1,0 +1,25 @@
+/* Cascade Style Sheet*/
+h2 {
+ color : rgb(0, 255, 255) ;  
+}
+/* star(*) means everything*/
+/**{
+ border: solid    
+}*/
+.header{
+ background-color: rgb(255, 238, 0);
+ 
+ justify-content: space-between
+}
+.game{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.division{
+ 
+ display: flex;
+ justify-content: flex-end;
+
+}
