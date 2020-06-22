@@ -1,6 +1,6 @@
 /* Cascade Style Sheet*/
 h2 {
- color : rgb(0, 255, 255) ;  
+ color : #00ff2a;  
 }
 /* star(*) means everything*/
 /**{
@@ -12,9 +12,32 @@ h2 {
  justify-content: space-between
 }
 .game{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-evenly;
+position:relative
+}
+.game p{
+ position : absolute;
+ top :50%;
+ left:50%;
+ transform : translate(-50%, -50%);
+ opacity: 0;
+
+}
+
+.game:hover p{
+opacity: 0.33;
+
+
+}
+.game:hover img{
+opacity:0.33
+}
+
+a :link {
+color:white
+
+}
+a :visited{
+color:white
 }
 
 .division{
